@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* Style for the page loader */
+        .loader {
+          border: 16px solid #f3f3f3;
+          border-top: 16px solid #3498db;
+          border-radius: 50%;
+          width: 120px;
+          height: 120px;
+          animation: spin 2s linear infinite;
+          margin: auto;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+        }
+        
+        /* Keyframe animation for the loader */
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+        
+        /* Style for the page content */
+        .content {
+          display: none;
+        }
+    </style>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐶</text></svg>">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+    <title>Hello, World!</title>
+</head>
+<body class="content" style="background-image: url(https://i.pinimg.com/750x/3f/21/fa/3f21facc53c9e09f1327504966a9bced.jpg);background-size: cover;height: 100%;">
+    <div class="loader"></div>
+    <!-- <iframe src="https://www.youtube.com/embed/EVhW6be3jGc?autoplay=1&mute=1" allow='autoplay'></iframe> -->
+    <div class="row container-fluid d-flex align-items-center justify-content-center" style="width: 100%;height: 100%;margin: 0px;padding: 0px;">
+
+
+        <div id="kartu_1" class="card" style="width: 18rem;">
+            <img src="https://media.giphy.com/media/FnsbzAybylCs8/giphy.gif" class="card-img-top" alt="..." style="height: 50%;margin-top: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Halloww Nd Spikey👩‍🔬🐕👋👋</h5>
+              <p class="card-text">Kalau kam melihat ini, berarti pasti Taro ada buat kesalahan yaa?? 🤭</p>
+              <button onclick="myFunction()" href="#" class="btn" style="background-color: greenyellow;">Iya, betul kali!! 😡</button>
+              <img src="https://i.pinimg.com/originals/b9/b2/32/b9b232952b22a6dfcee8148f2650129b.gif" style="width: 70px;position: absolute;right: 25px;bottom: 10px;" alt="">
+            </div>
+          </div>
+
+
+          <div id="kartu_2" class="card" style="width: 18rem;display: none;">
+            <img src="https://media.giphy.com/media/DOmoqqHVkhLos/giphy.gif" class="card-img-top" alt="..." style="height: 50%;margin-top: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Banyak nggak? 🙃</h5>
+              <p class="card-text">Kira" banyak ya kesalahan yg udah taro buat?? 😰</p>
+              <button onclick="myFunction2()" href="#" class="btn" style="background-color: greenyellow;">kali pun!! sampe gabisa dihitung 😡</button>
+                </div>
+                <div class="tenor-gif-embed" data-postid="24961649" data-share-method="host" data-aspect-ratio="0.990625" data-width="70px" style="position: absolute; right: 0px; bottom: 0px;float: right;text-align: center;" ></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                </div>
+
+
+
+            <div id="kartu_3" class="card" style="width: 18rem;display: none;">
+                <img src="https://media.giphy.com/media/QvBoMEcQ7DQXK/giphy.gif" class="card-img-top" alt="..." style="height: 50%;margin-top: 10px;">
+                <div style="text-align: center;" class="card-body">
+                  <h5 class="card-title">Nd Spikey, Kam mau nggak maafkan aku?? 🙃</h5>
+                  <p class="card-text">Kalau Taro udah keluarkan ini, pasti kesalahannya cukup fatal..😔, Will you forgive him Nd Spikey..?</p>
+                  <button onclick="myFunction3()" href="#" class="btn" style="background-color: greenyellow; width: 170px; margin-bottom: 15px;">Mmmm Otey...😊</button>
+                  <button id="tombol_hilang" onclick="myFunction_hilang()" href="#" class="btn" style="background-color: rgb(241, 45, 45); width: 170px;">Nope 😒</button>
+                </div>
+            </div>
+
+            <div id="kartu_4" class="card" style="width: 18rem;display: none;">
+                <div class="tenor-gif-embed" data-postid="23176838" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/cute-gif-23176838">Cute Sticker</a>from <a href="https://tenor.com/search/cute-stickers">Cute Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                <div class="card-body">
+                  <h5 class="card-title">Yeaaashh!!! Ku janji nggak akan perbuat kesalahan ini lagi Nd Spikey🤞😉</h5>
+                  <p class="card-text">Dan aku betul" menyesal sama yg udah aku lakukan sehingga bisa nyakitin kam</p>
+                  <button onclick="" href="#" class="btn" style="background-color: greenyellow;">I Love U till the End 💓</button>
+                  <img src="https://i.pinimg.com/originals/42/9a/89/429a890a39e70d522d52c7e52bce8535.gif" style="width: 70px;position: absolute;right: 25px;bottom: 10px;" alt="">
+                </div>
+              </div>
+
+        </div>
+
+    <script>
+
+window.addEventListener("load", function(){
+      const loader = document.querySelector(".loader");
+      const content = document.querySelector(".content");
+      loader.style.display = "none";
+      content.style.display = "block";
+    });
+
+
+
+
+        let kartu_1 = document.getElementById("kartu_1");
+        let kartu_2 = document.getElementById("kartu_2");
+        let kartu_3 = document.getElementById("kartu_3");
+        let tombol_hilang = document.getElementById("tombol_hilang");
+
+function myFunction() {
+      kartu_1.style.display = "none";
+      kartu_2.style.display = "block";
+    //   alert("Button clicked 1!");
+    }
+
+    function myFunction2() {
+      kartu_2.style.display = "none";
+      kartu_3.style.display = "block";
+    //   alert("Button clicked! 2");
+    }
+    function myFunction3() {
+      kartu_3.style.display = "none";
+      kartu_4.style.display = "block";
+    //   alert("Button clicked! 2");
+    }
+
+    function myFunction_hilang() {
+        let angka = Math.floor((Math.random() * 10) + 1);
+        let text = " ";
+        if(angka >= 0 && angka <= 2) {
+            text = "🥱";
+        } else if (angka >= 3 && angka <= 5) {
+            text = "😑";
+        }else if (angka >= 6 && angka <= 8) {
+            text = "😒";
+        }else {
+            text = "😴";
+        }
+        tombol_hilang.innerHTML = "Nope" + text;
+        tombol_hilang.style.position = "fixed";
+        tombol_hilang.style.top = Math.random()*625+"px";
+        tombol_hilang.style.right = Math.random()*205+"px";
+        console.log(Math.random()*100);
+    }
+
+    </script>
+</body>
+</html>
